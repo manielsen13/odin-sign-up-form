@@ -51,7 +51,7 @@ form {
     padding-left: 50px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 18px;
     margin-left: -50px;
     margin-right: -50px;
     box-shadow:  1px 2px 1px rgba(2, 2, 10, 0.2);
@@ -96,5 +96,9 @@ input:focus {
     outline: none;
     border-color: blue;
     box-shadow:  1px 2px 1px rgba(2, 2, 10, 0.2);
+}
+
+input:invalid {
+    border-color: red;
 }
 

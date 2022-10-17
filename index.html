@@ -53,17 +53,19 @@
             <div class="formSection">
                 <div class="formInput">
                     <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password">
+                    <input type="password" name="password" id="password" minlength="4" title="Password must be greater than 3 characters in length" required>
                 </div>
                 <div class="formInput">
                     <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm_password" id="confirm_password">
+                    <input type="password" name="confirm_password" id="confirm_password" minlength="4" title="Password must be greater than 3 characters in length" required>
                 </div>
             </div>
 
+            <button type="submit">Create Account</button>
+
         </form>
 
-        <button>Create Account</button>
+        
 
         <div>Already have an account? <a href="https://google.com">Log in</a></div>
         
